@@ -7,6 +7,44 @@ h1 {
     font-size: 60px;
 }
 
+.cant-read-1 {
+    font-family:'Dancing Script';
+}
+
+.cant-read-2 {
+    font-family:'Vina Sans';
+}
+
+.cant-read-3 {
+    font-family:'Kaushan Script';
+}
+
+#hidden {
+    opacity: 0;
+}
+
+.fade-in {
+	opacity: 0;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+    }
+    75% {
+		opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 @media screen and (max-width: 1400px) {
     h1 {
