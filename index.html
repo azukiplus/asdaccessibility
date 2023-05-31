@@ -39,25 +39,7 @@
   </header>
 
   <main class="ps-5 ms-5 me-5 pe-5 pt-5 mt-5">
-    
-
-    <div class="row">
-      <div class="col-4">
-        <div id="the-pages" class="list-group">
-          <a class="list-group-item list-group-item-action" href="#5-facts">5 Facts about ASD and Websites</a>
-          <a class="list-group-item list-group-item-action" href="#why">Why Should We Design for ASD?</a>
-          <a class="list-group-item list-group-item-action" href="#interaction">Tips on Interacting with People with ASD</a>
-          <a class="list-group-item list-group-item-action" href="#product">Tips on Designing More Accessible Sites</a>
-          <a class="list-group-item list-group-item-action" href="#resources">Additional Resources</a>
-        </div>
-      </div>
-      <div class="col-8">
-        <div data-bs-spy="scroll" data-bs-target="#the-pages" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-        </div>
-      </div>
-    </div>
-
-
+    <!-- Title part of page -->
     <section class="d-flex p-2 m-5">
       <div class="d-inline-flex align-items-end">
         <img src="img/vecteezy-puzzle-l.png" alt="hand with puzzle pieces" class="img-fluid">
@@ -81,379 +63,465 @@
       </div>
       <p></p>
     </section>
-    <section class="p-2 m-5">
-      <div class="m-5 pt-5">
-        <h2 class="mt-5 pt-5 pb-3"><mark>As a foreword...</mark></h2>
-        <p>This page contains a lot of example elements, but not all of them will actually do things when you interact
-          with them. The elements on this page are for experimental and example purposes only.</p>
-      </div>
-    </section>
-    <section class="p-2 m-5" id="5-facts">
-      <div class="m-5">
-        <h2 class="mt-5 pt-5 pb-3"><mark>5 Facts about ASD and Web Accessibility</mark></h2>
-        <ul>
-          <li>One in 36 children, or <a href="https://www.cdc.gov/ncbddd/autism/data.html" target=”_blank”>over 2.7% of
-              8-year-old
-              children,</a> in the U.S. was diagnosed with ASD in 2020,
-            increasing from 2018 when the estimate was 1 in 44.
-            In 2020, <a href="https://www.internetworldstats.com/stats.htm" target="_blank">89.8% of people in
-              America</a> were active
-            internet users. This means that about 2.4%, or about 1 in 41
-            people, are autistic and use the internet in the U.S.
-          </li>
-          <div class="d-flex w-100 justify-content-between border p-5 m-3 bg-light">
-            <div class="d-inline-flex flex-column p-5">
-              <div class="pie animate" style="--p:2.7;--c:lightgreen"> 2.7%</div>
-              <p>1 in 36 children were diagnosed with ASD in the U.S. in 2020. </p>
-            </div>
-            <div class="d-inline-flex flex-column p-5">
-              <div class="pie animate" style="--p:89.8;--c:pink"> 89.8%</div>
-              <p>89.8% of the U.S. population are active internet users. </p>
-            </div>
-            <div class="d-inline-flex flex-column p-5">
-              <div class="pie animate" style="--p:2.4;--c:lightblue"> 2.4%</div>
-              <p>1 in 41 people in the U.S. are autistic and use the internet. </p>
-            </div>
-          </div>
-          <li>
-            Relatively few users (25%) had ever tried technology designed for people with cognitive disabilities; and
-            only <a href="https://doi.org/10.1145/1414471.1414475" target=”_blank”>7% of respondents</a> had used
-            technology products
-            designed specifically for autism in one study.
-          </li>
-          <li>
-            Sensory abnormalities were prevalent in ASD, with <a href="https://pubmed.ncbi.nlm.nih.gov/19369385/"
-              target=”_blank”>94.4%
-              of the ASD sample</a> reporting extreme levels of
-            sensory processing on at least one sensory quadrant of the AASP in one study.
-          </li>
-          <li>
-            Reading comprehension is an <a href="https://pubmed.ncbi.nlm.nih.gov/22843036/" target=”_blank”>area of
-              difficulty for many
-              individuals with ASD.</a>
-            Word recognition, oral language and social impairments may constrain reading comprehension in ASD.
-          </li>
-          <li>
-            Based on theories and past research, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4210351/"
-              target=”_blank”>predictive impairment</a> could be a shared
-            characteristic among
-            individuals with autism.
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="p-2 m-5" id="why">
-      <div class="m-5">
-        <h2 class="pb-3"><mark>Why is it important to consider people with ASD in online experiences?</mark></h2>
-        <p>
-          1 in 41 people, or about 2.4% of people are autistic and are active internet users in the U.S. Considering the
-          population of the U.S, this means there are millions of active internet users who are also autistic. And, this
-          is only considering people with ASD who live in the U.S; there are millions more people worldwide who have ASD
-          and are active users of the internet.
-        </p>
-        <p>
-          Tim Berners-Lee, the man known as the inventor of the internet, once said: "The power of the web is in its
-          universality. Access by everyone regardless of disability is an essential aspect."
-        </p>
-        <div class="container py-5 h-100">
-          <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-md-12 col-xl-5">
 
-              <figure class="bg-light p-4"
-                style="border-left: .35rem solid #8fe1ff; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
-                <i class="fas fa-quote-left fa-2x mb-4" style="color: #8fe1ff;"></i>
-                <blockquote class="blockquote pb-2">
+    <!-- Scrollspy -->
+    <div class="row">
+      <div class="col-3">
+        <div id="the-pages" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#5-facts">5 Facts about ASD and Websites</a>
+          <a class="list-group-item list-group-item-action" href="#why">Why Should We Design for ASD?</a>
+          <a class="list-group-item list-group-item-action" href="#interaction">Interacting with People with
+            ASD</a>
+          <a class="list-group-item list-group-item-action" href="#product">Designing More Accessible Sites</a>
+          <a class="list-group-item list-group-item-action" href="#resources">Additional Resources</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#the-pages" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+
+
+
+          <section class="p-2 m-5">
+            <div class="m-5 pt-5">
+              <h2 class="mt-5 pt-5 pb-3"><mark>As a foreword...</mark></h2>
+              <p>This page contains a lot of example elements, but not all of them will actually do things when you
+                interact
+                with them. The elements on this page are for experimental and example purposes only.</p>
+            </div>
+          </section>
+          <section class="p-2 m-5" id="5-facts">
+            <div class="m-5">
+              <h2 class="mt-5 pt-5 pb-3"><mark>5 Facts about ASD and Web Accessibility</mark></h2>
+              <ul>
+                <li>One in 36 children, or <a href="https://www.cdc.gov/ncbddd/autism/data.html" target=”_blank”>over
+                    2.7% of
+                    8-year-old
+                    children,</a> in the U.S. was diagnosed with ASD in 2020,
+                  increasing from 2018 when the estimate was 1 in 44.
+                  In 2020, <a href="https://www.internetworldstats.com/stats.htm" target="_blank">89.8% of people in
+                    America</a> were active
+                  internet users. This means that about 2.4%, or about 1 in 41
+                  people, are autistic and use the internet in the U.S.
+                </li>
+                <div class="d-flex flex-wrap w-100 justify-content-between border p-5 m-3 bg-light">
+                  <div class="d-flex flex-column p-5">
+                    <div class="pie animate" style="--p:2.7;--c:lightgreen"> 2.7%</div>
+                    <p>1 in 36 children were diagnosed with ASD in the U.S. in 2020. </p>
+                  </div>
+                  <div class="d-flex flex-column p-5">
+                    <div class="pie animate" style="--p:89.8;--c:pink"> 89.8%</div>
+                    <p>89.8% of the U.S. population are active internet users. </p>
+                  </div>
+                  <div class="d-flex flex-column p-5">
+                    <div class="pie animate" style="--p:2.4;--c:lightblue"> 2.4%</div>
+                    <p>1 in 41 people in the U.S. are autistic and use the internet. </p>
+                  </div>
+                </div>
+                <li>
+                  Relatively few users (25%) had ever tried technology designed for people with cognitive disabilities;
+                  and
+                  only <a href="https://doi.org/10.1145/1414471.1414475" target=”_blank”>7% of respondents</a> had used
+                  technology products
+                  designed specifically for autism in one study.
+                </li>
+                <li>
+                  Sensory abnormalities were prevalent in ASD, with <a href="https://pubmed.ncbi.nlm.nih.gov/19369385/"
+                    target=”_blank”>94.4%
+                    of the ASD sample</a> reporting extreme levels of
+                  sensory processing on at least one sensory quadrant of the AASP in one study.
+                </li>
+                <li>
+                  Reading comprehension is an <a href="https://pubmed.ncbi.nlm.nih.gov/22843036/" target=”_blank”>area
+                    of
+                    difficulty for many
+                    individuals with ASD.</a>
+                  Word recognition, oral language and social impairments may constrain reading comprehension in ASD.
+                </li>
+                <li>
+                  Based on theories and past research, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4210351/"
+                    target=”_blank”>predictive impairment</a> could be a shared
+                  characteristic among
+                  individuals with autism.
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="p-2 m-5" id="why">
+            <div class="m-5">
+              <h2 class="pb-3"><mark>Why is it important to consider people with ASD in online experiences?</mark></h2>
+              <p>
+                1 in 41 people, or about 2.4% of people are autistic and are active internet users in the U.S.
+                Considering the
+                population of the U.S, this means there are millions of active internet users who are also autistic.
+                And, this
+                is only considering people with ASD who live in the U.S; there are millions more people worldwide who
+                have ASD
+                and are active users of the internet.
+              </p>
+              <p>
+                Tim Berners-Lee, the man known as the inventor of the internet, once said: "The power of the web is in
+                its
+                universality. Access by everyone regardless of disability is an essential aspect."
+              </p>
+              <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+
+
+                  <figure class="bg-light p-3"
+                    style="border-left: .35rem solid #8fe1ff; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
+                    <i class="fas fa-quote-left fa-2x mb-4" style="color: #8fe1ff;"></i>
+                    <blockquote class="blockquote pb-2">
+                      <p>
+                        The power of the web is in its
+                        universality. Access by everyone regardless of disability is an essential aspect.
+                      </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer mb-0">
+                      Tim Berners-Lee, <cite title="Source Title">inventor of the internet</cite>
+                    </figcaption>
+                  </figure>
+
+                </div>
+              </div>
+              <p>
+                As developers and designers who create websites, we need to make websites that are accessible to
+                everyone.
+                People with ASD have the right to access and engage with online content just like any other user. If the
+                way
+                we design a site is barring them from doing so, it's on us to make sure that they can access and use our
+                site.
+                It's necessary to design sites so that everyone has an equal opportunity to access information,
+                services, and
+                resources.
+              </p>
+            </div>
+          </section>
+          <section class="p-2 m-5" id="interaction">
+            <div class="m-5">
+              <h2 class="pb-3"><mark>Tips on how to interact with people with ASD through websites and website
+                  design</mark></h2>
+              <h3>First, one tip as a foreword.</h3>
+              <p>We need to remember that everyone with ASD is different since ASD affects everyone differently. ASD is
+                a
+                spectrum in many ways. For example, some people might struggle with communication– <a
+                  href="https://pubmed.ncbi.nlm.nih.gov/34495269/" target=”_blank”>an estimated 25-30% of
+                  individuals</a> with ASD are nonverbal or minimally verbal. Others might have no trouble with talking.
+                So,
+                while
+                the following points might address something that significantly affects some people with ASD, no one
+                point can
+                encompass the needs of everyone with ASD. Accessibility is not a feature; it's a requirement. And,
+                adding one
+                component that might help some people with ASD won't necessarily help all.
+              </p>
+              <h3>Tips on website design that can help us get our content across clearer to individuals with ASD</h3>
+              <p>
+                First, provide instructions or help guides. Break down complex tasks
+                into manageable steps and use visual aids or multimedia elements to reinforce understanding. Providing
+                explicit instructions can help people with ASD navigate the website more independently. Provide options
+                to
+                get help when necessary.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
+                <div class="d-inline-flex flex-column">
+                  <p>Good ✅</p>
+                  <label class="mb-3">Need help? Ask here!</label>
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="question" class="form-label">Ask a question!</label>
+                      <input class="form-control" id="question">
+                    </div>
+                    <button class="btn btn-primary disabled">Submit</button>
+                  </form>
+                </div>
+                <div class="d-inline-flex flex-column bg-light">
+                  <p>Good ✅</p>
+                  <button type="button" class="btn btn-primary" id="liveToastBtn">Ask for help</button>
+
+                  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <strong class="me-auto">Helper</strong>
+                        <small>Just now</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        Hello! How can I help you?
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <p>Next, use simple and straightforward language in the website's content. Avoid jargon, complex sentence
+                structures, and ambiguous wording. Avoid using idioms and be straight to the point with what you want to
+                convey in the text. Because reading comprehension can be an area of difficulty for people with ASD, we
+                need
+                to structure the content in a way that's as clear as possible for them to understand.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
+                <div class="d-inline-flex flex-column">
+                  <p>Good ✅</p>
+                  <p>It's raining heavily in Seattle today!</p>
+                </div>
+                <div class="d-inline-flex flex-column">
+                  <p>Bad ❌</p>
+                  <p>It's raining cats and dogs in Seattle today!</p>
+                </div>
+              </div>
+              <p class="pb-3">Finally, use clear, concise instructions on buttons. It can be helpful for there to be
+                visual
+                cues in
+                buttons as well, as long as the visual cue is clear and is accompanied with supporting text. It should
+                be
+                clear what every element on a page does. For example, there shouldn't be buttons with just icons that
+                explain what they do. Because predictive impairment can be a shared characteristic among individuals
+                with
+                ASD, it might not be clear to them what a button or element does when they interact with it unless
+                that's
+                specifically stated on the element.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
+                <div class="d-inline-flex flex-column">
+                  <p>Good ✅</p><button type="button" class="btn btn-primary">Send Email 📫</button>
+                </div>
+                <div class="d-inline-flex flex-column">
+                  <p>Bad ❌</p><button type="button" class="btn btn-primary">Click here!</button>
+                </div>
+              </div>
+              <h3 class="pt-3">What about communicating directly, whether that be through emails or phone calls?</h3>
+              <p>
+                Even if we aren't the ones writing the content for the sites that we build, we might have website users
+                with
+                ASD who want to communicate directly with us, whether that be for feedback purposes or questions about
+                the
+                content on the site. We can make this easier by having a clear section on the site to take feedback from
+                users. Here's one tip on how to better communicate through email with those with ASD.
+              </p>
+              <p>
+                Use straightforward language when communicating, whether that be through emails or phone calls. Avoid
+                excessive jargon, metaphors, or ambiguous phrases that could be confusing or misinterpreted. If you're
+                writing
+                an email, organize it using clear headings, bullet points, or numbered lists. If the email involves
+                scheduling
+                a follow-up, provide clear details about the time, location, and any specific agenda items.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
+                <div class="d-inline-flex flex-column">
+                  <p>Good ✅</p>
+                  <h3>Can we schedule a meeting to talk about your feedback for xyz site?</h3>
                   <p>
-                    The power of the web is in its
-                    universality. Access by everyone regardless of disability is an essential aspect.
+                    This is what I want to talk about:
+                  <ul>
+                    <li>This is my first point.</li>
+                    <li>This is my second point.</li>
+                  </ul>
+                  Can we schedule a meeting on 6/1/23 @ 3:00pm PST to talk about this? Thanks.
                   </p>
-                </blockquote>
-                <figcaption class="blockquote-footer mb-0">
-                  Tim Berners-Lee, <cite title="Source Title">inventor of the internet</cite>
-                </figcaption>
-              </figure>
-
-            </div>
-          </div>
-        </div>
-        <p>
-          As developers and designers who create websites, we need to make websites that are accessible to everyone.
-          People with ASD have the right to access and engage with online content just like any other user. If the way
-          we design a site is barring them from doing so, it's on us to make sure that they can access and use our site.
-          It's necessary to design sites so that everyone has an equal opportunity to access information, services, and
-          resources.
-        </p>
-      </div>
-    </section>
-    <section class="p-2 m-5" id="interaction">
-      <div class="m-5">
-        <h2 class="pb-3"><mark>Tips on how to interact with people with ASD through websites and website design</mark></h2>
-        <h3>First, one tip as a foreword.</h3>
-        <p>We need to remember that everyone with ASD is different since ASD affects everyone differently. ASD is a
-          spectrum in many ways. For example, some people might struggle with communication– <a
-            href="https://pubmed.ncbi.nlm.nih.gov/34495269/" target=”_blank”>an estimated 25-30% of
-            individuals</a> with ASD are nonverbal or minimally verbal. Others might have no trouble with talking. So,
-          while
-          the following points might address something that significantly affects some people with ASD, no one point can
-          encompass the needs of everyone with ASD. Accessibility is not a feature; it's a requirement. And, adding one
-          component that might help some people with ASD won't necessarily help all.
-        </p>
-        <h3>Tips on website design that can help us get our content across clearer to individuals with ASD</h3>
-        <p>
-          First, provide instructions or help guides. Break down complex tasks
-          into manageable steps and use visual aids or multimedia elements to reinforce understanding. Providing
-          explicit instructions can help people with ASD navigate the website more independently. Provide options to
-          get help when necessary.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
-          <div class="d-inline-flex flex-column">
-            <p>Good ✅</p>
-            <label class="mb-3">Need help? Ask here!</label>
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-              </div>
-              <div class="mb-3">
-                <label for="question" class="form-label">Ask a question!</label>
-                <input class="form-control" id="question">
-              </div>
-              <button class="btn btn-primary disabled">Submit</button>
-            </form>
-          </div>
-          <div class="d-inline-flex flex-column bg-light">
-            <p>Good ✅</p>
-            <button type="button" class="btn btn-primary" id="liveToastBtn">Ask for help</button>
-
-            <div class="toast-container position-fixed bottom-0 end-0 p-3">
-              <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header">
-                  <strong class="me-auto">Helper</strong>
-                  <small>Just now</small>
-                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-                <div class="toast-body">
-                  Hello! How can I help you?
                 </div>
               </div>
             </div>
+          </section>
 
-          </div>
-        </div>
-        <p>Next, use simple and straightforward language in the website's content. Avoid jargon, complex sentence
-          structures, and ambiguous wording. Avoid using idioms and be straight to the point with what you want to
-          convey in the text. Because reading comprehension can be an area of difficulty for people with ASD, we need
-          to structure the content in a way that's as clear as possible for them to understand.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
-          <div class="d-inline-flex flex-column">
-            <p>Good ✅</p>
-            <p>It's raining heavily in Seattle today!</p>
-          </div>
-          <div class="d-inline-flex flex-column">
-            <p>Bad ❌</p>
-            <p>It's raining cats and dogs in Seattle today!</p>
-          </div>
-        </div>
-        <p class="pb-3">Finally, use clear, concise instructions on buttons. It can be helpful for there to be visual
-          cues in
-          buttons as well, as long as the visual cue is clear and is accompanied with supporting text. It should be
-          clear what every element on a page does. For example, there shouldn't be buttons with just icons that
-          explain what they do. Because predictive impairment can be a shared characteristic among individuals with
-          ASD, it might not be clear to them what a button or element does when they interact with it unless that's
-          specifically stated on the element.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
-          <div class="d-inline-flex flex-column">
-            <p>Good ✅</p><button type="button" class="btn btn-primary">Send Email 📫</button>
-          </div>
-          <div class="d-inline-flex flex-column">
-            <p>Bad ❌</p><button type="button" class="btn btn-primary">Click here!</button>
-          </div>
-        </div>
-        <h3 class="pt-3">What about communicating directly, whether that be through emails or phone calls?</h3>
-        <p>
-          Even if we aren't the ones writing the content for the sites that we build, we might have website users with
-          ASD who want to communicate directly with us, whether that be for feedback purposes or questions about the
-          content on the site. We can make this easier by having a clear section on the site to take feedback from
-          users. Here's one tip on how to better communicate through email with those with ASD.
-        </p>
-        <p>
-          Use straightforward language when communicating, whether that be through emails or phone calls. Avoid
-          excessive jargon, metaphors, or ambiguous phrases that could be confusing or misinterpreted. If you're writing
-          an email, organize it using clear headings, bullet points, or numbered lists. If the email involves scheduling
-          a follow-up, provide clear details about the time, location, and any specific agenda items.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
-          <div class="d-inline-flex flex-column">
-            <p>Good ✅</p>
-            <h3>Can we schedule a meeting to talk about your feedback for xyz site?</h3>
-            <p>
-              This is what I want to talk about:
-            <ul>
-              <li>This is my first point.</li>
-              <li>This is my second point.</li>
-            </ul>
-            Can we schedule a meeting on 6/1/23 @ 3:00pm PST to talk about this? Thanks.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="p-2 m-5" id="product">
-      <div class="m-5">
-        <h2 class="pb-3"><mark>Tips on how to create more accessible websites for people with ASD</mark></h2>
-        <p>
-          When designing an online product, we need to take into account sensory sensitivities that individuals with
-          ASD may experience by avoiding the use of excessive audio, flashing lights, or bright colors that could be
-          overstimulating. It would also be helpful to provide options to adjust or mute audio, control visual effects
-          and colors, or manage sensory input in other ways. For example, the site could have options for users to
-          take sensory breaks, pause or save progress, and return to the site when ready. This abides by UDL's
-          guidelines to provide options for self regulation by facilitating pausing if necessary.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
-          <div class="d-inline-flex flex-column">
-            <p>Good ✅</p>
-            <div><button type="button" class="btn btn-primary" id="save-btn">Save Progress 💾</button></div>
-            <div id="hidden">Your progress has been saved!</div>
-          </div>
-        </div>
-        <p>
-          It would also be helpful if the site offers customizable features that allow individuals with ASD to tailor
-          the online experience to their specific needs. This might include options to adjust font sizes, color
-          schemes, sound settings, and line spacing. Some individuals with ASD may be sensitive to certain sounds or
-          colors. Offering the ability to adjust the website's features and design can create a more comfortable
-          browsing experience for them. This feature would go with UDL's guidelines to provide options for perception
-          by offering multiple ways to customize the site's features.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light" id="darken">
-          <div class="d-inline-flex flex-column">
-            <p class="dark-tog">Good ✅</p>
-            <label for="customRange2" class="form-label dark-tog">Font size:</label>
-            <input type="range" class="form-range bg-white p-4 mb-3 mt-3 rounded border" min="10" max="30" step="5"
-              id="customRange2">
-            <p class="dark-tog" id="text-size-change">Change the size of this text.</p>
-            <div class="pt-5">
-              <label class="form-label dark-tog">Light Mode/Dark Mode Toggle:</label>
-              <input type="radio" class="btn-check" name="options" id="light-mode" checked>
-              <label class="btn btn-primary" for="light-mode">Light Mode</label>
-              <input type="radio" class="btn-check" name="options" id="dark-mode">
-              <label class="btn btn-primary" for="dark-mode">Dark Mode</label>
+          <section class="p-2 m-5" id="product">
+            <div class="m-5">
+              <h2 class="pb-3"><mark>Tips on how to create more accessible websites for people with ASD</mark></h2>
+              <p>
+                When designing an online product, we need to take into account sensory sensitivities that individuals
+                with
+                ASD may experience by avoiding the use of excessive audio, flashing lights, or bright colors that could
+                be
+                overstimulating. It would also be helpful to provide options to adjust or mute audio, control visual
+                effects
+                and colors, or manage sensory input in other ways. For example, the site could have options for users to
+                take sensory breaks, pause or save progress, and return to the site when ready. This abides by UDL's
+                guidelines to provide options for self regulation by facilitating pausing if necessary.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
+                <div class="d-inline-flex flex-column">
+                  <p>Good ✅</p>
+                  <div><button type="button" class="btn btn-primary" id="save-btn">Save Progress 💾</button></div>
+                  <div id="hidden">Your progress has been saved!</div>
+                </div>
+              </div>
+              <p>
+                It would also be helpful if the site offers customizable features that allow individuals with ASD to
+                tailor
+                the online experience to their specific needs. This might include options to adjust font sizes, color
+                schemes, sound settings, and line spacing. Some individuals with ASD may be sensitive to certain sounds
+                or
+                colors. Offering the ability to adjust the website's features and design can create a more comfortable
+                browsing experience for them. This feature would go with UDL's guidelines to provide options for
+                perception
+                by offering multiple ways to customize the site's features.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light" id="darken">
+                <div class="d-inline-flex flex-column">
+                  <p class="dark-tog">Good ✅</p>
+                  <label for="customRange2" class="form-label dark-tog">Font size:</label>
+                  <input type="range" class="form-range bg-white p-4 mb-3 mt-3 rounded border" min="10" max="30"
+                    step="5" id="customRange2">
+                  <p class="dark-tog" id="text-size-change">Change the size of this text.</p>
+                  <div class="pt-5">
+                    <label class="form-label dark-tog">Light Mode/Dark Mode Toggle:</label>
+                    <input type="radio" class="btn-check" name="options" id="light-mode" checked>
+                    <label class="btn btn-primary" for="light-mode">Light Mode</label>
+                    <input type="radio" class="btn-check" name="options" id="dark-mode">
+                    <label class="btn btn-primary" for="dark-mode">Dark Mode</label>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Next, we should incorporate visuals on the site. This can include things like images or icons to
+                supplement
+                the content of the site and the elements on the page. These visuals can help individuals with ASD
+                comprehend
+                information, follow instructions, and understand what happens when interacting with certain parts of the
+                site. This would go with UDL's guidelines to provide options for expression and communication by adding
+                multiple ways to view information.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
+                <div class="d-inline-flex flex-column p-5">
+                  <p>Good ✅</p>
+                  <p>This is a cat named Vin. She is very fluffy and cute.</p>
+                  <figure class="figure">
+                    <img src="img/vin.jpg" alt="A cat named Vin" class="img-fluid p-2">
+                    <figcaption class="figure-caption">A cat named Vin</figcaption>
+                  </figure>
+                </div>
+                <div class="d-inline-flex flex-column p-5">
+                  <p>Bad ❌</p>
+                  <p>There is a fluffy cat. It's very fluffy and cute. Also, this is a bunch of random text. Why?
+                    Because I
+                    want to put a lot of words here to make a huge block of text that is hard to read. Here's even more
+                    text. And, more text. And, even more text. This is even more text. This is going to turn into a very
+                    big
+                    block of
+                    text about a cat. Here's more text by the way. And, here's even more text to make this text block a
+                    little bit bigger. How about some more text? And even more? What about some more text? This looks
+                    like
+                    it's about enough text to be considered a very big block of text without a picture or other visuals
+                    to
+                    accompany it.
+                  </p>
+                </div>
+              </div>
+              <p>
+                The overall design of the site should be uncluttered and organized; the site needs to minimize
+                distractions
+                and provide a clear focus. We can do this by using a consistent layout, simple navigation, and avoiding
+                excessive visual stimuli. Elements like pop-up windows should be avoided. The more predictable and clear
+                the
+                website design is, the easier it would be for individuals with ASD to navigate it. The default design of
+                the
+                site should be clear by using sans-serif font faces or other clear typefaces.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
+                <div class="d-inline-flex flex-column">
+                  <p>Bad ❌</p>
+                  <button type="button" class="btn btn-primary" id="popup">Click here!!! ⚠️</button>
+                </div>
+                <div class="d-inline-flex flex-column">
+                  <p>Bad ❌</p>
+                  <p class="cant-read-1">This text might be hard to read.</p>
+                  <p class="cant-read-2">So might this text.</p>
+                  <p class="cant-read-3">And... probably this text as well.</p>
+                </div>
+              </div>
+              <p>
+                Finally, the site must maintain predictability and consistency in the way it's designed. Individuals
+                with
+                ASD often thrive in familiar environments where things are predictable. So, we need consistency in our
+                website design for a better user experience. Specifically, for example, we can keep the nav bar on top
+                and
+                the footer on the bottom. If there are elements that show up after something gets clicked on the site,
+                we
+                can use visual indicators like progress bars to show what's happening. A success message or error
+                notification can pop up at the end as well to make the flow of an individual's actions and the system's
+                response clearer.
+              </p>
+              <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
+                <div class="d-inline-flex flex-column">
+                  <p>Good ✅</p>
+                  <p>Pick a button!</p>
+                  <div>
+                    <button type="button" class="btn btn-danger" id="fail-btn">Fail</button>
+                    <button type="button" class="btn btn-success" id="success-btn">Succeed</button>
+                  </div>
+                  <p id="fail-or-succeed"></p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <p>
-          Next, we should incorporate visuals on the site. This can include things like images or icons to supplement
-          the content of the site and the elements on the page. These visuals can help individuals with ASD comprehend
-          information, follow instructions, and understand what happens when interacting with certain parts of the
-          site. This would go with UDL's guidelines to provide options for expression and communication by adding
-          multiple ways to view information.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
-          <div class="d-inline-flex flex-column p-5">
-            <p>Good ✅</p>
-            <p>This is a cat named Vin. She is very fluffy and cute.</p>
-            <figure class="figure">
-              <img src="img/vin.jpg" alt="A cat named Vin" class="img-fluid p-2">
-              <figcaption class="figure-caption">A cat named Vin</figcaption>
-            </figure>
-          </div>
-          <div class="d-inline-flex flex-column p-5">
-            <p>Bad ❌</p>
-            <p>There is a fluffy cat. It's very fluffy and cute. Also, this is a bunch of random text. Why? Because I
-              want to put a lot of words here to make a huge block of text that is hard to read. Here's even more
-              text. And, more text. And, even more text. This is even more text. This is going to turn into a very big
-              block of
-              text about a cat. Here's more text by the way. And, here's even more text to make this text block a
-              little bit bigger. How about some more text? And even more? What about some more text? This looks like
-              it's about enough text to be considered a very big block of text without a picture or other visuals to
-              accompany it.
-            </p>
-          </div>
-        </div>
-        <p>
-          The overall design of the site should be uncluttered and organized; the site needs to minimize distractions
-          and provide a clear focus. We can do this by using a consistent layout, simple navigation, and avoiding
-          excessive visual stimuli. Elements like pop-up windows should be avoided. The more predictable and clear the
-          website design is, the easier it would be for individuals with ASD to navigate it. The default design of the
-          site should be clear by using sans-serif font faces or other clear typefaces.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
-          <div class="d-inline-flex flex-column">
-            <p>Bad ❌</p>
-            <button type="button" class="btn btn-primary" id="popup">Click here!!! ⚠️</button>
-          </div>
-          <div class="d-inline-flex flex-column">
-            <p>Bad ❌</p>
-            <p class="cant-read-1">This text might be hard to read.</p>
-            <p class="cant-read-2">So might this text.</p>
-            <p class="cant-read-3">And... probably this text as well.</p>
-          </div>
-        </div>
-        <p>
-          Finally, the site must maintain predictability and consistency in the way it's designed. Individuals with
-          ASD often thrive in familiar environments where things are predictable. So, we need consistency in our
-          website design for a better user experience. Specifically, for example, we can keep the nav bar on top and
-          the footer on the bottom. If there are elements that show up after something gets clicked on the site, we
-          can use visual indicators like progress bars to show what's happening. A success message or error
-          notification can pop up at the end as well to make the flow of an individual's actions and the system's
-          response clearer.
-        </p>
-        <div class="d-flex w-100 justify-content-around border p-5 m-3 bg-light">
-          <div class="d-inline-flex flex-column">
-            <p>Good ✅</p>
-            <p>Pick a button!</p>
-            <div>
-              <button type="button" class="btn btn-danger" id="fail-btn">Fail</button>
-              <button type="button" class="btn btn-success" id="success-btn">Succeed</button>
-            </div>
-            <p id="fail-or-succeed"></p>
-          </div>
-        </div>
-      </div>
-    </section>
+          </section>
 
-    <section class="p-2 m-5" id="resources">
-      <div class="m-5">
-        <h2 class="pb-3"><mark>Additional Resources</mark></h2>
-        <p>Here are some additional resources that can be helpful when making your own website to be more accesible.</p>
-        <ul>
-          <li>
-            It might be useful to listen to <a
-              href="https://a11yrules.com/podcast/e31-interview-with-jamie-knight-part-1/" target=”_blank”>an episode of
-              the
-              Accessibility Rules podcast,</a> where Nic Steenhout
-            interviews people that are involved with web accessibility. In particular, this interview with Jamie Knight,
-            an autistic web developer, is very helpful for designing web pages for autistic people. It's interesting to
-            listen to Knight's views on online accessibility because of their perspective as an autistic person. They
-            talk about how they became a web developer, the principles they keep in mind as they create sites, and their
-            experience as an autistic person in web development.
-          </li>
-          <li>
-            Here's a <a href="https://github.com/otsimo/autism-colors" target=”_blank”>GitHub repository</a> with code
-            that generates
-            colors that are friendly for people with ASD. A <a href="https://issuu.com/gaarchitects4/docs/mla-presentation-november-2010-low- 
-            " target=”_blank”>study</a> by
-            GA Architects, a group of architects specialized in building sensory-friendly environments for children and
-            adults with ASD, it was found that subdued and colors mixed with gray were favored by children with autism,
-            there was a preference for colors in the blue/green hue sectors, and a balance between colourfulness and
-            grayness was seen to be popular. This open-source color generator takes those points into account in order
-            to generate colors that are less likely to cause sensory overstimulation.
-          </li>
-          <li>
-            This is a <a href="https://webaim.org/resources/contrastchecker/" target=”_blank”>color contrast checker
-              tool</a> that you
-            can use to check if the text and elements on your site are
-            contrasted enough for them to be accessible. This site was developed by WebAIM, the Institute for Disability
-            Research, Policy, and Practice at Utah State University. This tool checks the colors of the background
-            against the text colors in order to see if they abide by the Web Content Accessibility Guidelines (WCAG).
-            This resource can help prevent sensory overload or underload which individuals with ASD might experience.
-          </li>
-        </ul>
+          <section class="p-2 m-5" id="resources">
+            <div class="m-5">
+              <h2 class="pb-3"><mark>Additional Resources</mark></h2>
+              <p>Here are some additional resources that can be helpful when making your own website to be more
+                accesible.</p>
+              <ul>
+                <li>
+                  It might be useful to listen to <a
+                    href="https://a11yrules.com/podcast/e31-interview-with-jamie-knight-part-1/" target=”_blank”>an
+                    episode of
+                    the
+                    Accessibility Rules podcast,</a> where Nic Steenhout
+                  interviews people that are involved with web accessibility. In particular, this interview with Jamie
+                  Knight,
+                  an autistic web developer, is very helpful for designing web pages for autistic people. It's
+                  interesting to
+                  listen to Knight's views on online accessibility because of their perspective as an autistic person.
+                  They
+                  talk about how they became a web developer, the principles they keep in mind as they create sites, and
+                  their
+                  experience as an autistic person in web development.
+                </li>
+                <li>
+                  Here's a <a href="https://github.com/otsimo/autism-colors" target=”_blank”>GitHub repository</a> with
+                  code
+                  that generates
+                  colors that are friendly for people with ASD. A <a href="https://issuu.com/gaarchitects4/docs/mla-presentation-november-2010-low- 
+                  " target=”_blank”>study</a> by
+                  GA Architects, a group of architects specialized in building sensory-friendly environments for
+                  children and
+                  adults with ASD, it was found that subdued and colors mixed with gray were favored by children with
+                  autism,
+                  there was a preference for colors in the blue/green hue sectors, and a balance between colourfulness
+                  and
+                  grayness was seen to be popular. This open-source color generator takes those points into account in
+                  order
+                  to generate colors that are less likely to cause sensory overstimulation.
+                </li>
+                <li>
+                  This is a <a href="https://webaim.org/resources/contrastchecker/" target=”_blank”>color contrast
+                    checker
+                    tool</a> that you
+                  can use to check if the text and elements on your site are
+                  contrasted enough for them to be accessible. This site was developed by WebAIM, the Institute for
+                  Disability
+                  Research, Policy, and Practice at Utah State University. This tool checks the colors of the background
+                  against the text colors in order to see if they abide by the Web Content Accessibility Guidelines
+                  (WCAG).
+                  This resource can help prevent sensory overload or underload which individuals with ASD might
+                  experience.
+                </li>
+              </ul>
+            </div>
+          </section>
+
+
+
+        </div>
       </div>
-    </section>
+    </div>
+
+
+
   </main>
 </body>
 
