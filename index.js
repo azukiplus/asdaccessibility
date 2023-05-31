@@ -95,6 +95,6 @@ function failorSucceed() {
     });
 
     sucBtn.addEventListener('click', () => {
-        failorSucceed.innerHTML = "Success! ⭐";
+        failorSucceed.innerHTML = "Succeeded! ⭐";
     });
 }
